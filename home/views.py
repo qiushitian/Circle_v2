@@ -20,7 +20,7 @@ class Contacts(View):
 
 class Connector(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'home/connector.html')
+        return render(request, 'social/inbox.html')
 
 
 class Forum(View):
