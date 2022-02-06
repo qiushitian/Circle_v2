@@ -1,0 +1,24 @@
+@import "config";
+
+.landing {
+  background-color: $primary-color;
+  height: 93vh;
+
+  &__img{
+    position: relative;
+    padding: 0 0vw 0 32vw;
+  }
+  &__btn{
+    width:100px;
+    margin:20px 20px 0 20px;
+  }
+}
+
+
+
+.title {
+  color: $secondary-color;
+  position: fixed;
+  top: 63%;
+  padding-left: 15vw;
+}

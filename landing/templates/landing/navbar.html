@@ -8,12 +8,12 @@
     </button>
     <a class="navbar-brand" 
     {% if user.is_authenticated %}
-    href="{% url 'post-list' %}"
+    href="{% url 'home' %}"
     {% else %}
     href="{% url 'index' %}"
     {% endif %}
 
-    ><i class="fas fa-comment"></i> Circle</a>
+    ><i class="far fa-circle"></i> Circles</a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       </ul>
