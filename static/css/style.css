@@ -5,13 +5,15 @@
 }
 
 .landing {
+  top: 0%;
   background-color: #8aaaaf;
-  height: 93vh;
+  height: 100vh;
+  overflow: none;
 }
 
 .landing__img {
   position: relative;
-  padding: 0 0vw 0 32vw;
+  width: 500px;
 }
 
 .landing__btn {
@@ -21,9 +23,6 @@
 
 .title {
   color: #fef3e3;
-  position: fixed;
-  top: 63%;
-  padding-left: 23vw;
   font-size: 60px;
 }
 
@@ -33,6 +32,10 @@
 
 .btn-dark:hover {
   background-color: #b19986;
+}
+
+.profile {
+  color: white;
 }
 
 .navbar {
@@ -391,5 +394,9 @@
 
 .img_board__staff {
   border: 5px solid #ffee00;
+}
+
+.inbox {
+  background-color: #8aaaaf;
 }
 /*# sourceMappingURL=style.css.map */

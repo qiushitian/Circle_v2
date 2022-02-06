@@ -1,12 +1,16 @@
+
 .btn-light:hover{
     background-color: $btn-light;
 }
 .btn-dark:hover{
     background-color: $btn-dark;
 }
-
+.profile{
+    color:white;
+}
 .navbar{
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+
 }
 .remove-default-btn {
 	background-color: transparent;
