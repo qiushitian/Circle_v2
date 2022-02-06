@@ -15,7 +15,7 @@ class Explore(View):
 
 class Contacts(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'home/contactshtml')
+        return render(request, 'home/contacts.html')
 
 
 class Connector(View):
